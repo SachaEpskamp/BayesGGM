@@ -1,15 +1,17 @@
 Package: BayesGGM
 Type: Package
-Title: What the Package Does in One 'Title Case'
-     Line
-Version: 1.0
-Date: 2017-06-04
-Author: Sacha Epskamp
-Maintainer: Sacha Epskamp
-     <mail@sachaepskamp.com>
-Description: One paragraph description of what
-     the package does as one or more full
-     sentences.
-License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.10), glasso, statmod, qgraph
-LinkingTo: Rcpp
+Title: Bayesian Estimators for Gaussian Graphical Models
+Version: 0.1.5
+Author: Joran Jongerling
+Maintainer: Joran Jongerling <jongerling@essb.eur.nl>
+Depends: glasso, modeest, qgraph, mvtnorm, R (>= 3.0.0)
+Suggests: psych, bootnet
+Description: BayesGGM is a R package to estimate Gaussian Graphical Models (GGMs) using 6 different Bayesian estimation methods.
+  Researchers can choose between 1) a Bayesian GLASSO, 2) an Adaptive Bayesian GLASSO, 3) a Graphical Horseshoe, 4)
+  a (Ridge-type) penalized estimator based on an Eigenvalue decompostion of the Wishart prior, 5) an adaptive (Ridge-type) penalized estimator based on an
+  Eigenvalue decomposition of the Wishart prior, and 6) a normal Wishart prior with no regularization.
+  In addition, BayesGGM also provide 95\% Credibility Intervals for the strength, closeness, and betweenness centrality, and imputes missing data.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
