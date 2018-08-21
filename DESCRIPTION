@@ -2,7 +2,7 @@ Package: BayesGGM
 Type: Package
 Title: Bayesian Estimators for Gaussian Graphical Models
 Version: 0.1.5
-Author: Joran Jongerling
+Author: Joran Jongerling & Sacha Epskamp
 Maintainer: Joran Jongerling <jongerling@essb.eur.nl>
 Depends: glasso, modeest, qgraph, mvtnorm, R (>= 3.0.0)
 Suggests: psych, bootnet
